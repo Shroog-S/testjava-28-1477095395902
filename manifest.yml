@@ -1,0 +1,11 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 1024M
+  instances: 2
+  domain: mybluemix.net
+  name: testjava-28
+  host: testjava-28
+  disk_quota: 1024M
+  services:
+  - availability-monitoring-auto
+  - Auto-Scaling-sc
